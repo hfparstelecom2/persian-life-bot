@@ -1,16 +1,11 @@
 {
-  "name": "starter-template",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/main.js",
-  "type": "module",
-  "scripts": {
-    "format": "prettier --write ."
-  },
-  "dependencies": {
-    "node-appwrite": "^14.1.0"
-  },
-  "devDependencies": {
-    "prettier": "^3.2.5"
-  }
+    "name": "persian-telegram-bot",
+    "version": "1.0.0",
+    "description": "Persian Life Management Bot",
+    "main": "src/main.js",
+    "dependencies": {
+        "telegraf": "^4.15.0",
+        "appwrite": "^13.0.0",
+        "moment-jalaali": "^0.10.0"
+    }
 }
